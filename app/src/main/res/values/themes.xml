@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ZoomableRecyclerView" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:statusBarColor">#91ACFE</item>
+    </style>
+
+    <style name="Theme.ZoomableRecyclerView" parent="Base.Theme.ZoomableRecyclerView" />
+
+<!--your custom style-->
+    <style name="roundImage">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+</resources>
